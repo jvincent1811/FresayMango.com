@@ -1,0 +1,22 @@
+Fresa & Mango — Sitio web compilado (listo para GitHub Pages)
+=============================================================
+
+Contenido:
+- index.html, assets/  → el sitio compilado
+- CNAME                → dominio personalizado (fresaymango.com)
+- .nojekyll            → evita que GitHub Pages omita archivos
+- 404.html             → respaldo de rutas
+
+Pasos:
+1. Sube TODO el contenido de esta carpeta a la raíz de tu repositorio
+   (o a la rama/carpeta que uses para GitHub Pages).
+2. En GitHub: Settings → Pages → Source: rama main (raíz).
+3. En "Custom domain" escribe: fresaymango.com y guarda.
+   (El archivo CNAME ya viene incluido, así que GitHub lo detectará solo.)
+4. En tu proveedor de dominio, apunta los DNS a GitHub Pages:
+   - Registro A:    185.199.108.153 / 185.199.109.153
+                    185.199.110.153 / 185.199.111.153
+   - Registro CNAME para www: tu-usuario.github.io
+5. Activa "Enforce HTTPS" cuando GitHub lo habilite.
+
+Listo: https://fresaymango.com
