@@ -1,0 +1,18 @@
+FRESA Y MANGO — fresaymango.com
+Paquete compilado listo para GitHub Pages.
+Novedades: menú completo con fotos reales y precios + experiencia móvil renovada.
+
+INSTRUCCIONES:
+1. Sube TODO el contenido de esta carpeta (no la carpeta en sí) a tu repositorio.
+2. El archivo CNAME ya contiene "fresaymango.com" — no lo borres.
+3. En GitHub: Settings > Pages > Source: "Deploy from a branch" (rama main, carpeta /root).
+4. El archivo .nojekyll evita que GitHub procese los archivos — es invisible pero necesario.
+5. El archivo 404.html hace que la página cargue bien aunque entren por una ruta rara.
+
+DNS EN GODADDY (registros tipo A para @):
+- 185.199.108.153
+- 185.199.109.153
+- 185.199.110.153
+- 185.199.111.153
+- CNAME para "www" apuntando a tu-usuario.github.io
+¡No debe quedar ningún registro A "Parked" de GoDaddy!
